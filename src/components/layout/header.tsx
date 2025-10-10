@@ -30,7 +30,7 @@ const Header = () => {
 
   return (
     <header className="sticky top-0 z-50 bg-[#f0fdf9] shadow-sm">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-5">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <Link
@@ -61,7 +61,7 @@ const Header = () => {
           {/* Right Side Actions */}
           <div className="hidden lg:flex items-center gap-4">
             <button className="bg-indigo-600 hover:bg-indigo-700 text-white px-6 py-3 rounded-lg font-medium flex items-center gap-2 transition-colors shadow-lg shadow-indigo-600/20">
-              Get a Quote
+              Connect Now
               <ArrowRight className="w-4 h-4" />
             </button>
           </div>
