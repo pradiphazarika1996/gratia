@@ -78,7 +78,7 @@ export default function Footer({ className = "" }: FooterProps) {
                   height={70}
                   className="mr-4"
                 /> */}
-                <span className="text-xl font-bold">APTDCL</span>
+                <span className="text-xl font-bold">Gratia Technology</span>
               </div>
 
               {/* Contact Information */}
