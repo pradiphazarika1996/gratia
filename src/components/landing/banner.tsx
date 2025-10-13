@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import BannerImg from "@/assets/images/banner.png";
+import BannerImg from "@/assets/images/bannerimg.svg";
 export default function Banner() {
   return (
     <section className="bg-[#f0fdf9] flex items-center">
@@ -35,7 +35,7 @@ export default function Banner() {
 
           {/* Right Image */}
           {/* Right Image */}
-          <div className="relative hidden lg:block">
+          <div className="relative lg:block">
             <div className="relative w-full h-[600px]">
               <Image
                 src={BannerImg}
