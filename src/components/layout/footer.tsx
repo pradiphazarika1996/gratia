@@ -64,7 +64,7 @@ export default function Footer({ className = "" }: FooterProps) {
   return (
     <footer className={`bg-white ${className}`}>
       {/* Main Footer Section */}
-      <div className="bg-[#34547a] text-white">
+      <div className="bg-[#0b2d57] text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
           <div className="grid grid-cols-1 lg:grid-cols-4 gap-8">
             {/* Logo and Contact Information */}

@@ -219,10 +219,10 @@ const HeroSection = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 py-16 px-4">
+    <div className="min-h-screen bg-gradient-to-br  py-16 px-4">
       <div className="max-w-7xl mx-auto">
         {/* Hero Content */}
-        <div className="relative rounded-3xl overflow-hidden bg-gradient-to-br from-[#0a0e1a] to-[#1a1f35] p-12 md:p-16">
+        <div className="relative rounded-3xl overflow-hidden bg-gradient-to-br from-[#0ca6ed] to-[#7aabe8] p-12 md:p-16">
           {/* Background Decorative Elements */}
           <div className="absolute top-0 right-0 w-1/2 h-full opacity-20">
             <div className="absolute top-20 right-20 w-64 h-64 border-2 border-blue-500 rounded-full"></div>
@@ -231,7 +231,7 @@ const HeroSection = () => {
           </div>
           {/* Latest Project Badge */}
           <div className="flex items-center gap-2 mb-8 relative z-10">
-            <div className="w-10 h-10 bg-gradient-to-br from-blue-600 to-purple-600 rounded-lg flex items-center justify-center">
+            {/* <div className="w-10 h-10 bg-gradient-to-br from-blue-600 to-purple-600 rounded-lg flex items-center justify-center">
               <svg
                 className="w-6 h-6 text-white"
                 viewBox="0 0 24 24"
@@ -253,10 +253,10 @@ const HeroSection = () => {
                   strokeLinecap="round"
                 />
               </svg>
-            </div>
-            <span className="text-blue-400 font-semibold text-sm tracking-wider uppercase">
+            </div> */}
+            {/* <span className="text-blue-400 font-semibold text-sm tracking-wider uppercase">
               Latest Project
-            </span>
+            </span> */}
           </div>
           {/* Main Heading */}
           <div className="mb-16 relative z-10">
@@ -269,7 +269,7 @@ const HeroSection = () => {
               </span>
             </h1>
           </div>
-          View All Services Button
+          <span className="text-white">View All Services Button</span>
           {/* <div className="absolute top-12 md:top-16 right-12 md:right-16 z-10"> */}
           {/* <button className="group bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white px-6 py-3 rounded-lg font-semibold flex items-center gap-2 transition-all duration-300 shadow-lg hover:shadow-xl">
               VIEW ALL SERVICES

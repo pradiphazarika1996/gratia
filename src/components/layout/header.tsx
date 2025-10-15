@@ -124,6 +124,7 @@ import { ArrowRight, Menu, X } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import Logo from "@/assets/images/logo.png";
+import TopHeader from "./topheader";
 
 const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -149,6 +150,7 @@ const Header = () => {
 
   return (
     <header className="sticky top-0 z-50 bg-[#f0fdf9] shadow-sm">
+      <TopHeader />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-5">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
