@@ -43,7 +43,7 @@ const OurClients: React.FC = () => {
         {/* Header */}
         <div className="text-center mb-16">
           <h3 className="text-indigo-600 font-semibold text-sm uppercase tracking-wide mb-4">
-            OUR CLIENTELE
+            OUR CLIENT
           </h3>
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
             Trusted by Businesses Across the Globe
