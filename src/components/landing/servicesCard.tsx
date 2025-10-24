@@ -14,7 +14,7 @@ const HeroSection = () => {
             y="8"
             width="32"
             height="32"
-            rx="4"
+            rx=""
             stroke="white"
             strokeWidth="2"
           />
@@ -24,10 +24,10 @@ const HeroSection = () => {
             strokeWidth="2"
             strokeLinecap="round"
           />
-          <circle cx="20" cy="16" r="2" fill="white" />
+          <circle cx="14" cy="14" r="2" fill="white" />
         </svg>
       ),
-      title: "Business Analysis",
+      title: "UI/UX Design",
       description:
         "Continually engage customized infomediarie and quality growth strategies. Appropriately.",
     },
@@ -53,7 +53,7 @@ const HeroSection = () => {
           <rect x="26" y="4" width="4" height="6" rx="1" fill="white" />
         </svg>
       ),
-      title: "Software Services",
+      title: "Software Development",
       description:
         "Continually engage customized infomediarie and quality growth strategies. Appropriately.",
     },
@@ -103,7 +103,7 @@ const HeroSection = () => {
           />
         </svg>
       ),
-      title: "Software Services",
+      title: "CMS Development",
       description:
         "Continually engage customized infomediarie and quality growth strategies. Appropriately.",
     },
@@ -128,7 +128,7 @@ const HeroSection = () => {
           />
         </svg>
       ),
-      title: "Web Development",
+      title: "Quality Assurance",
       description:
         "Continually engage customized infomediarie and quality growth strategies. Appropriately.",
     },
@@ -153,7 +153,7 @@ const HeroSection = () => {
           />
         </svg>
       ),
-      title: "Web Development",
+      title: "DevOps Services",
       description:
         "Continually engage customized infomediarie and quality growth strategies. Appropriately.",
     },
@@ -178,7 +178,7 @@ const HeroSection = () => {
           />
         </svg>
       ),
-      title: "Web Development",
+      title: "Business Analysis",
       description:
         "Continually engage customized infomediarie and quality growth strategies. Appropriately.",
     },
@@ -195,7 +195,7 @@ const HeroSection = () => {
           <circle cx="24" cy="24" r="3" fill="white" />
         </svg>
       ),
-      title: "UI/UX Design",
+      title: "IT Consulting",
       description:
         "Continually engage customized infomediarie and quality growth strategies. Appropriately.",
     },
@@ -222,7 +222,7 @@ const HeroSection = () => {
     <div className="min-h-screen bg-gradient-to-br  py-16 px-4">
       <div className="max-w-7xl mx-auto">
         {/* Hero Content */}
-        <div className="relative rounded-3xl overflow-hidden bg-gradient-to-br from-[#0ca6ed] to-[#7aabe8] p-12 md:p-16">
+        <div className="relative rounded-3xl overflow-hidden bg-gradient-to-br from-[#0a77cf] to-[#0962cf] p-12 md:p-16">
           {/* Background Decorative Elements */}
           <div className="absolute top-0 right-0 w-1/2 h-full opacity-20">
             <div className="absolute top-20 right-20 w-64 h-64 border-2 border-blue-500 rounded-full"></div>
@@ -264,7 +264,7 @@ const HeroSection = () => {
               We Provide Exclusive Service
               <br />
               For{" "}
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-purple-600">
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-800 to-purple-800">
                 Your Business
               </span>
             </h1>

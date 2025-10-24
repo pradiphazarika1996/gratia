@@ -28,22 +28,12 @@ import reactnative from "../../assets/images/react_native1.svg";
 import mongodb from "../../assets/images/mongodb.svg";
 import postgresql from "../../assets/images/postgresql.svg";
 import mysql from "../../assets/images/mysql.svg";
-// import expo from "../../assets/images/expo.svg";
-// import firebase from "../../assets/images/firebase.svg";
-// import supabase from "../../assets/images/supabase.svg";
-// import dynamodb from "../../assets/images/dynamodb.svg";
-// import strapi from "../../assets/images/strapi.svg";
-// import contentful from "../../assets/images/contentful.svg";
-// import sanity from "../../assets/images/sanity.svg";
 import wordpress from "../../assets/images/wordpress.svg";
-// import drupal from "../../assets/images/drupal.svg";
-// import ghost from "../../assets/images/ghost.svg";
 import figma from "../../assets/images/figma.svg";
 import adobexd from "../../assets/images/adove_xd.svg";
 import sketch from "../../assets/images/sketch.svg";
 import invision from "../../assets/images/adobe_photoshop.svg";
 import photoshop from "../../assets/images/adobe_illustrator.svg";
-// import illustrator from "../../assets/images/illustrator.svg";
 
 type TabKey =
   | "FRONTEND"
@@ -89,10 +79,6 @@ const TechStackTabs = () => {
       { name: "PHP", image: php },
       { name: "Java", image: java },
       { name: "Python", image: python },
-      // { name: "GraphQL", image: graphql },
-      // { name: "Python", image: python },
-      // { name: "Django", image: django },
-      // { name: "FastAPI", image: fastapi },
     ],
     MOBILE: [
       { name: "React Native", image: reactnative },
@@ -106,26 +92,14 @@ const TechStackTabs = () => {
       { name: "MongoDB", image: mongodb },
       { name: "PostgreSQL", image: postgresql },
       { name: "MySQL", image: mysql },
-      //   { name: "Redis", image: redis },
-      //   { name: "Firebase", image: firebase },
-      //   { name: "Supabase", image: supabase },
-      //   { name: "DynamoDB", image: dynamodb },
     ],
-    CMS: [
-      //   { name: "Strapi", image: strapi },
-      //   { name: "Contentful", image: contentful },
-      //   { name: "Sanity", image: sanity },
-      { name: "WordPress", image: wordpress },
-      //   { name: "Drupal", image: drupal },
-      //   { name: "Ghost", image: ghost },
-    ],
+    CMS: [{ name: "WordPress", image: wordpress }],
     "DESIGN TOOLS": [
       { name: "Figma", image: figma },
       { name: "Adobe XD", image: adobexd },
       { name: "Sketch", image: sketch },
       { name: "InVision", image: invision },
       { name: "Photoshop", image: photoshop },
-      // { name: "Illustrator", image: illustrator },
     ],
   };
 
@@ -174,12 +148,12 @@ const TechStackTabs = () => {
 
         {/* Tabs */}
         <div className="bg-orange-50 rounded-lg p-2 mb-8">
-          <div className="flex flex-wrap gap-2 justify-center">
+          <div className="flex gap-2 overflow-x-auto scrollbar-hide py-1 px-1">
             {tabs.map((tab) => (
               <button
                 key={tab}
                 onClick={() => setActiveTab(tab)}
-                className={`px-6 py-3 rounded-lg font-medium text-sm transition-all duration-300 ${
+                className={`flex-shrink-0 px-4 sm:px-6 py-2 rounded-lg font-medium text-sm transition-all duration-300 whitespace-nowrap ${
                   activeTab === tab
                     ? "bg-white text-orange-500 shadow-md"
                     : "text-gray-600 hover:text-gray-900"
